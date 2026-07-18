@@ -1,0 +1,68 @@
+Como ya conozco el tipo de preguntas que me has hecho durante este último año (Oracle PL/SQL, PostgreSQL, ETL, Python, Power BI, Git y proyectos de análisis de datos), creo que puedes seguir una estrategia muy efectiva:
+
+Lunes: teoría (libro + documentación oficial).
+Martes: ver 1 o 2 videos sobre el tema.
+Miércoles: resolver ejercicios en plataformas de práctica.
+Jueves: desarrollar un mini proyecto relacionado.
+Viernes: subir el proyecto a GitHub con un README bien documentado.
+Sábado: revisar código, refactorizar y resolver dudas.
+Domingo: descansar o repasar conceptos difíciles.
+
+
+EJEMPLO:
+Día 1
+
+Leer únicamente la clase que te escribí.
+
+Aproximadamente:
+
+1 hora.
+
+No busques nada más.
+
+Día 2
+
+Ver videos.
+
+Aproximadamente:
+
+1 hora.
+
+Mientras ves los videos responde preguntas como:
+
+¿Qué entendí?
+¿Qué no entendí?
+¿Qué conceptos se repiten?
+Día 3
+
+Leer un poco de documentación.
+
+No toda.
+
+Solo las secciones que te indiqué.
+
+Aprender a leer documentación es una habilidad que iremos desarrollando durante el curso.
+
+Día 4
+
+Hacer el laboratorio.
+
+Instalar programas.
+
+Crear carpetas.
+
+Crear el README.
+
+Día 5
+
+Hacer la tarea.
+
+Diseñar el diagrama.
+
+Día 6
+
+Subir todo a GitHub.
+
+Día 7
+
+Resolver el Quiz.3
