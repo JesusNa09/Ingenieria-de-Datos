@@ -1,0 +1,11 @@
+Semana 2 – Ecosistema de Datos y Arquitectura Moderna
+
+| Día   | Actividad     | Tiempo |
+| ----- | ------------- | ------ |
+| Día 1 | Clase         | 2 h    |
+| Día 2 | Videos        | 1 h    |
+| Día 3 | Documentación | 45 min |
+| Día 4 | Laboratorio   | 2 h    |
+| Día 5 | Tarea         | 1.5 h  |
+| Día 6 | GitHub        | 1 h    |
+| Día 7 | Quiz          | 45 min |

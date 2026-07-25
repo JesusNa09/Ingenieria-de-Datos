@@ -1,0 +1,20 @@
+Semana1
+📚 Lectura
+Fundamentals of Data Engineering – Joe Reis y Matt Housley.
+Leer Introducción y Capítulos 1 y 2.
+Documentación oficial de PostgreSQL:
+Secciones "About PostgreSQL" y "Tutorial".
+
+
+Empieza con este artículo oficial de IBM:
+https://www.ibm.com/think/topics/data-engineering?utm_source=chatgpt.com
+
+Semana2 
+📚 Lectura obligatoria
+Libro
+
+Fundamentals of Data Engineering
+
+Capítulo 3 (solo la parte sobre arquitecturas y pipelines).
+
+No leas todavía las secciones avanzadas de gobierno de datos o arquitectura empresarial.
