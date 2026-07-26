@@ -20,8 +20,12 @@ Es comprender que es la Ingeniería de Datos en general,conceptos,cuales son sus
 ## Lo que aprendí
 
 - Entendí la diferencia entre un Data Engineer y un Data Analyst.
-- Aprendí cómo funciona un pipeline de datos.
+- Aprendí cómo funciona un flujo de datos.
 - Conocí las etapas de extracción, transformación y carga.
+- Aprendi como es y como funciona el ciclo de vida de los datos
+- Aprendi la diferencia entre los procesos de datos ETL y ELT
+- Aprendi que son los Data Lake y Data Warehouse
+- Conocí las herramientas que se usaran dentro del transcurso del curso
 
 
 ## Estado
