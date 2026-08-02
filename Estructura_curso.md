@@ -1,4 +1,4 @@
-**Estructura del curso**
+# **Estructura del curso**
 
 Ingenieria-de-Datos/
 

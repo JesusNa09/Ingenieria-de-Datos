@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.0] - 2026-07-31
+
+### Agregado
+- Se crea base de datos con su tabla y correspondiente inserción de datos
+
+--------------------
+
 ## [1.1.0] - 2026-07-17
 
 ### Agregado

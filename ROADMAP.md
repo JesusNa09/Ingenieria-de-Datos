@@ -1,7 +1,8 @@
-# ROADMAP
+# ROADMAP del curso
 
-# Version 1.0
-- []Diseño de diagrama de datos a un Data Warehouse 
-
-# Version 1.1
-- []Diseño de diagrama de arquitectura de datos
+- [x] Semana 1 - Introducción
+- [x] Semana 2 - Arquitectura de Datos
+- [X ] Semana 3 - SQL para Data Engineering parte11
+- [ ] Semana 4 - SQL Avanzado
+...
+- [ ] Semana 24 - Proyecto Final

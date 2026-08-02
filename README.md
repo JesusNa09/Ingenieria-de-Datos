@@ -67,7 +67,9 @@ APIs REST.
 ## Tareas
 - Diseño de un diagrama (puedes usar Draw.io o diagrams.net) mostrando cómo moverías esos datos hasta un Data Warehouse.
 - Diseño de una arquitectura para una empresa que vende juguetes.
+- Creación de tabla e inserción de datos para responder preguntas con el lenguaje sql.
 
 ## Proyectos
 - Proyecto de Git (Subir carpeta con diagrama de diseño de datos de comose moverian los datos)
 - Crear nuevo directorio en Git con un diagrama de arquitectura de datos
+- Crear un nuevo directorio con la creacion de base de datos, la tabla la inserción de datos y consultas realizadas para el ejercicio

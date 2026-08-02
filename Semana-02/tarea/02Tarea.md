@@ -1,4 +1,4 @@
-Tarea
+# Tarea
 
 Diseña una arquitectura para una empresa que vende juguetes.
 

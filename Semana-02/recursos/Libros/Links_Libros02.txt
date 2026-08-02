@@ -1,9 +1,16 @@
-📚 Lectura
-Fundamentals of Data Engineering – Joe Reis y Matt Housley.
-Leer Introducción y Capítulos 1 y 2.
-Documentación oficial de PostgreSQL:
-Secciones "About PostgreSQL" y "Tutorial".
+Libro
+
+Fundamentals of Data Engineering
+
+Capítulo 3 (solo la parte sobre arquitecturas y pipelines).
 
 
-Empieza con este artículo oficial de IBM:
-https://www.ibm.com/think/topics/data-engineering?utm_source=chatgpt.com
+Leeremos documentación de Python.
+
+Solo:
+
+¿Qué es Python?
+¿Qué es pip?
+¿Qué son los entornos virtuales (venv)
+
+https://docs.python.org/es/3/

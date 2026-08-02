@@ -12,3 +12,10 @@ inteligencia comercial
 Ciclo de vida de los datos:Aqui confundi un termino y puse difucion en la ultima parte de ciclo de datos
 ## Correccion
 Pero no es la difucion sino la toma de decisiones una vez que ya se tengan los datos limpios y claros para poder ver que decision tomar ya con esotos datos listos 
+
+
+# Semana 2
+
+
+
+# Semana 3

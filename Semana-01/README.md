@@ -3,6 +3,7 @@
 ## Objetivo
 Es comprender que es la Ingeniería de Datos en general,conceptos,cuales son sus responsabilidades,cómo se diferencia de otros roles de datos y procesos.
 
+
 ## Temas vistos
 - ¿Qué es la Ingenieria de Datos?
 - ¿Por que nacio la Ingenieria de Datos?
@@ -17,6 +18,7 @@ Es comprender que es la Ingeniería de Datos en general,conceptos,cuales son sus
 - Batch vs Streaming
 - Herramientas más utilizadas
 
+
 ## Lo que aprendí
 
 - Entendí la diferencia entre un Data Engineer y un Data Analyst.
@@ -26,6 +28,24 @@ Es comprender que es la Ingeniería de Datos en general,conceptos,cuales son sus
 - Aprendi la diferencia entre los procesos de datos ETL y ELT
 - Aprendi que son los Data Lake y Data Warehouse
 - Conocí las herramientas que se usaran dentro del transcurso del curso
+
+
+## Tiempo invertido
+
+8 horas aproximadamente.
+
+
+## Dificultad
+
+⭐☆☆☆☆
+
+
+## Recursos utilizados
+
+- IBM
+- Documentación oficial de PostgreSQL:
+- Videos Youtube
+- Clase del curso
 
 
 ## Estado

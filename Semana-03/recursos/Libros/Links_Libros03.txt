@@ -1,0 +1,11 @@
+Documentación
+
+Leer solamente:
+
+PostgreSQL
+SELECT
+WHERE
+ORDER BY
+LIMIT
+
+https://www.postgresql.org/docs/current/queries.html
