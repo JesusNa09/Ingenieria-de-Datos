@@ -35,11 +35,11 @@ SELECT cliente, venta FROM ventas;
 
 /* 03 Ventas mayores a 200. */
 SELECT * FROM ventas
-WHERE venta >=200;
+WHERE venta =200;
 
 /* 04 Ordenar por venta. */
 SELECT * FROM ventas
-ORDER BY venta;
+ORDER BY venta ASC;
 
 /* 05 Mostrar categorías únicas. */
 SELECT DISTINCT(categoria) as Categoria

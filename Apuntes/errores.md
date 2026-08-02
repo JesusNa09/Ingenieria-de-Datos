@@ -19,3 +19,12 @@ Pero no es la difucion sino la toma de decisiones una vez que ya se tengan los d
 
 
 # Semana 3
+## Error1
+En la clausula Where puse que sirve como una condicion verdadera o falsa
+## Correccion
+filtra los registros que cumplan una o varias condiciones antes de devolver los resultados
+
+## Error 2
+Elimina resultados del resultado de una tabla
+## Correccion
+Elimina resultados del resultado de una consulta
