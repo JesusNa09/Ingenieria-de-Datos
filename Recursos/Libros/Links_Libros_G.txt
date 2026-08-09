@@ -18,3 +18,21 @@ Fundamentals of Data Engineering
 Capítulo 3 (solo la parte sobre arquitecturas y pipelines).
 
 No leas todavía las secciones avanzadas de gobierno de datos o arquitectura empresarial.
+
+Semana3
+Documentación
+Leer solamente:
+PostgreSQL
+SELECT
+WHERE
+ORDER BY
+LIMIT
+https://www.postgresql.org/docs/current/queries.html
+
+Semana4
+Leer únicamente la documentación oficial de PostgreSQL sobre:
+Aggregate Functions.
+GROUP BY.
+HAVING.
+CASE.
+

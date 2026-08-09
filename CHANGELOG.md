@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.1] - 2026-08-07
+
+### Agregado
+- Se realizan consultas para obtener datos y manipularlos
+
+--------------------
+
 ## [1.2.0] - 2026-07-31
 
 ### Agregado

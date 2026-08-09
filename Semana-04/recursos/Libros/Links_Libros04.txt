@@ -1,0 +1,17 @@
+Leer únicamente la documentación oficial de PostgreSQL sobre:
+
+Aggregate Functions.
+GROUP BY.
+HAVING.
+CASE.
+
+No leas todavía:
+
+JOIN.
+CTE.
+Window Functions. 
+
+https://www.postgresql.org/docs/current/functions-aggregate.html?utm_source=chatgpt.com
+https://www.postgresql.org/docs/18/queries-table-expressions.html
+https://www.postgresql.org/docs/current/functions-conditional.html?utm_source=chatgpt.com
+https://www.postgresql.org/docs/current/functions-datetime.html?utm_source=chatgpt.com

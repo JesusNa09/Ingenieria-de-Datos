@@ -1,0 +1,14 @@
+Semana 4 – SQL para Ingeniería de Datos (Parte 2)
+
+Día	Actividad	Tiempo
+Día 1	Clase	        2 horas
+Día 2	Videos	        1 hora
+Día 3	Documentación	45 minutos
+Día 4	Laboratorio	2 horas
+Día 5	Tarea	        2 horas
+Día 6	GitHub	        1 hora
+Día 7	Quiz	        45 minutos
+
+Total:
+
+9-10 horas

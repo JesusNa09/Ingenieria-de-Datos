@@ -32,7 +32,7 @@ Aprendi que es un subconjunto o un pezado del amacen de datos que se enfoca en e
 # Batch vs Streaming
 Aprendi la diferencia entre estos procesos de datos en la que en el batch se procesan los datos por lotes o sea cierta cantidad por cierto tiempo y el streaming que trabaja con datos casi en tiempo real
 
-# Herramoientas de un Data Engieer
+# Herramientas de un Data Engieer
 Aqui aprendi y vi algunas herramientas que se deben de utilizar para ejercer esta vacante como python , sql , postgresql. oracle, pandas, git, docker,pyspark, powerbi, api rest auqnque no he ocupado todas y por ejemplo desconocia de apache airflow
 
 
