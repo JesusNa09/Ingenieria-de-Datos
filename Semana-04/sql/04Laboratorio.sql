@@ -2,7 +2,7 @@
 Calcular:
 SUM(venta)*/
 /*Con la funcion de agregación sum vimos la suma de todas las ventas devolviendonos el total*/
-SELECT sum(venta) as venta FROM ventas;
+SELECT sum(venta) as venta FROM tota_ventas;
 
 
 /*Ejercicio 2
@@ -10,7 +10,7 @@ Calcular:
 AVG(venta)*/
 /*Con la funcion de agregación avg que aplicamos a la columna venta estamos obteniendo
 el promedio de ventas o media aritmetica*/
-SELECT avg(venta) as venta FROM ventas;
+SELECT avg(venta) as venta FROM promedio_ventas;
 
 
 /*Ejercicio 3
@@ -19,8 +19,10 @@ MAX()
 MIN()*/
 /*Con la funcion de agraagacion max aplciada a la venta estamos obteniendo la venta con
 mayor cantidad mientras que con la funcion min obtenemos la venta con menor cantidad*/
-Select MAX(venta) as venta FROM Ventas;
-Select MIN(venta) as venta FROM Ventas;
+Select 
+	MAX(venta) as venta_maxima,
+	MIN(venta) as venta_minima
+FROM Ventas;
 
 
 /*Ejercicio 4
@@ -41,7 +43,7 @@ Total vendido por categoría.*/
 el total despues aplicamos la clausula Group by a la columna categoria para acomodar 
 los registros del total de la ventas pero por categoria*/
 SELECT 
-	categoria,sum(venta)as venta 
+	categoria,sum(venta)as total_venta 
 FROM ventas
 GROUP BY categoria;
 
@@ -99,7 +101,7 @@ Mostrar longitud del nombre del cliente.*/
 /*Para este ejercicio solo usamos la funcion lenght que nos devolvera el total de numero 
 de letras aplciada a la columna cliente donde se encuentran los nombres*/
 SELECT 
-	cliente,LENGTH(cliente) as total_leta
+	cliente,LENGTH(cliente) as longitud_nombre
 FROM ventas;
 
 
@@ -107,5 +109,6 @@ FROM ventas;
 Obtener el año de la venta.*/
 /*Para este ejercicio usamos la funcion de extract aplicandola a la columna de año 
 extrayendo solo el año de esa columna ya que tiene la fecha completa*/
-SELECT id,cliente,producto,categoria,venta,(SELECT EXTRACT(YEAR FROM fecha))as año
+SELECT 
+	id,cliente,producto,categoria,venta,EXTRACT(YEAR FROM fecha)as año
 FROM ventas;

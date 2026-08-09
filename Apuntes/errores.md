@@ -28,3 +28,17 @@ filtra los registros que cumplan una o varias condiciones antes de devolver los 
 Elimina resultados del resultado de una tabla
 ## Correccion
 Elimina resultados del resultado de una consulta
+
+
+# Semana 4
+## Error1 
+COUNT(*) vs COUNT(columna)
+La diferencia es que count(*) te va a contar todos los registros de la tabla y count(columna) te va a contar los registros solo de las columnas que le especifiques
+## Correccion
+cuenta valores/registros no nulos, dependiendo de cómo lo utilices.
+
+## Error2
+Extract te ayuda a extraer fechas dependiendo de que le pidas si dia mes o año de tu columna de tipo fecha
+
+## Correccion
+Solo recuerda que no está limitado a fechas; permite extraer campos de valores date, timestamp, etc.

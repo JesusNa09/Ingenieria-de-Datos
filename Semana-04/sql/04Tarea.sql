@@ -22,11 +22,12 @@ por cliente para ver la compra mas alta del cliente y por la sintaxis de la agru
 ya que usamos al columna cliente y ordenamos de manera descendente para ver quien de todos
 los cleintes compro mas al final solo usamos un limit para delemitar cual due el cliente
 con mayor compra*/
-SELECT 
-	cliente, max(venta) as mayor_compra
+SELECT
+    cliente,
+    SUM(venta) AS total_compras
 FROM ventas
 GROUP BY cliente
-ORDER BY  mayor_compra DESC
+ORDER BY total_compras DESC
 LIMIT 1;
 
 
@@ -35,11 +36,12 @@ LIMIT 1;
 vende mas para esot usamos de nuevo la funcion de agregacion sum aplicada a la columand e ventas
 depues usamos la clausula group by a la columna de categoria para poder agrupar cada 
 total de compras por categoria */
-SELECT 
-	categoria, SUM(venta) AS mayor_categoria
+SELECT
+    categoria,sum(venta)AS total_ventas
 FROM ventas
 GROUP BY categoria
-ORDER BY mayor_categoria DESC;
+ORDER BY total_ventas DESC
+LIMIT 1;
 
 
 /*Promedio por categoría.*/
@@ -48,7 +50,7 @@ agregacion AVG a la columna de ventas ya que esta sacara el promedio de la colum
 pero como pide por cada categoria usamos la clausula group by para poder hacer ese acomodo
 de filas con el mismo tipo con base en la columna categoria*/
 SELECT
-	categoria,AVG(venta) as prome_cate
+	categoria,AVG(venta) as prome_venta
 FROM ventas
 GROUP BY categoria
 
@@ -91,13 +93,13 @@ FROM ventas;
 /*Venta mínima.*/
 /*Tenemos que ver solo la venta minima de las compras, para esto usamos solo la funcion
 de agregacion main para que no devuelva el registro minimo en ventas*/
-SELECT MIN(venta) as venta_maxima 
+SELECT MIN(venta) as venta_minima 
 FROM ventas;
 
 
 /*Promedio general.*/
 /*Se obtiene el promedio o media aritmetica de la columna que tu establescas
 para esto usamos la funcion avg para poder obtener el promedio general de las compras*/
-SELECT AVG(venta) as promedi_general 
+SELECT AVG(venta) as promedi_general
 FROM ventas;
 
