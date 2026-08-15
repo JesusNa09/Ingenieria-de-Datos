@@ -13,7 +13,6 @@ tambien nos mostro la sintaxis y algunos ejemplos de como usarla, ademas de que 
 Aprendi que la funcion having trabaja con grupos de filas, este sintaxicamante siempre debe de ir despues de la clausula group by , ademas nos da algunos ejemplo para
 ver como se debe declarar en tu consulta
 
-
 ## CASE.
 Aprendi que case es una herramienta condicional booleana que devolvera verdadero en caso de que se cumpla la condicion o falso en caso de que no y continua evaluando
 es como un if/else en programacion, ademas dio la sintaxis de como se debe hacer, evaluando cada una de las condiciones , devolvera el primer valor que encuentre como 

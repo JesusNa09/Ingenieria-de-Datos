@@ -1,0 +1,11 @@
+Semana 4 – SQL para Ingeniería de Datos (Parte 3)
+
+| Día       | Actividad                            | Tiempo            |
+| --------- | ------------------------------------ | ----------------: |
+| **Día 1** | 📖 Clase: JOINs, PK, FK y relaciones |       **2 horas** |
+| **Día 2** | 🎥 Videos sobre JOINs                |        **1 hora** |
+| **Día 3** | 📚 Documentación oficial             |    **45 minutos** |
+| **Día 4** | 🧪 Laboratorio práctico              |       **2 horas** |
+| **Día 5** | 📝 Tarea                             |       **2 horas** |
+| **Día 6** | 💻 GitHub + documentación            |        **1 hora** |
+| **Día 7** | 🧠 Quiz + repaso                     |    **45 minutos** |

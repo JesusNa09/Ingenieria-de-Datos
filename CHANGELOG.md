@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.2] - 2026-08-14
+
+### Agregado
+- Se agregan nuevas tablas con relación a la tabla creada anteriormente en la base de datos, se insertan datos las tablas correspondientes
+
+--------------------
+
 ## [1.2.1] - 2026-08-07
 
 ### Agregado

@@ -35,4 +35,19 @@ Aggregate Functions.
 GROUP BY.
 HAVING.
 CASE.
+https://www.postgresql.org/docs/current/functions-aggregate.html?utm_source=chatgpt.com
+https://www.postgresql.org/docs/18/queries-table-expressions.html
+https://www.postgresql.org/docs/current/functions-conditional.html?utm_source=chatgpt.com
+https://www.postgresql.org/docs/current/functions-datetime.html?utm_source=chatgpt.com
+
+Semana5
+Esta semana quiero que leas principalmente la documentación oficial de PostgreSQL sobre:
+INNER JOIN
+LEFT JOIN
+RIGHT JOIN
+FULL JOIN
+CROSS JOIN
+https://neon.com/postgresql/tutorial/joins
+https://www.postgresql.org/docs/current/queries-table-expressions.html?utm_source=chatgpt.com
+
 

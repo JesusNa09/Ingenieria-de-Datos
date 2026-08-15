@@ -1,4 +1,4 @@
-# Notas de la Clase 3
+# Notas de la Clase 4
 
 # 1.Funciones de agregación
 Aprendi que las funciones de agragacion son operaciones sobre un conjunto de valores y devuelven un unico valor
