@@ -62,7 +62,7 @@ FROM ventas v
 INNER JOIN productos p ON(v.id_producto=p.id_producto)
 GROUP BY p.nombre_producto
 ORDER BY mayor_ventas DESC
-LIMIT 2;
+LIMIT 1;
 
 /*5.¿Qué clientes nunca han comprado?*/
 /*Para este ejercicio aplique un left join a la tabla clientes de la tabla ventas ya que en clientes

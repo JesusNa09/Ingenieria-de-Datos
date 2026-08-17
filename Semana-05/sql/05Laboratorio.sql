@@ -278,7 +278,7 @@ categorias y para que nos e confundiera con la de clienters use cat , despues pu
 columna de cada tabla con su renombre de tabla que le habia dado y use la clausula Inner join 
 para ver la coincidencias de cliente , su id de producto su venta y su categoria de todas
 estas tablas*/
-SELECT c.nombre as cliente,p.id_producto,v.venta,cat.nombre_categoria as producto
+SELECT c.nombre as cliente,p.id_producto,v.venta,cat.nombre_categoria as categoria
 FROM clientes c
 INNER JOIN ventas v ON(c.id_cliente = v.id_cliente)
 INNER JOIN productos p ON(v.id_producto = p.id_producto)
