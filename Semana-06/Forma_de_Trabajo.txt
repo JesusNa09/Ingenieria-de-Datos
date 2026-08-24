@@ -1,0 +1,8 @@
+Día	Actividad	Tiempo
+Día 1	Clase		2 horas
+Día 2	Videos		1 hora
+Día 3	Documentación	45 min
+Día 4	Laboratorio	2 horas
+Día 5	Tarea		2 horas
+Día 6	GitHub		1 hora
+Día 7	Quiz		45 min

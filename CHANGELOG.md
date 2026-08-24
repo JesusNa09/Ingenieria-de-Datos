@@ -1,9 +1,16 @@
 # Changelog
 
+## [1.2.2] - 2026-08-21
+### Agregado
+- Se agregan nuevas tablas con relación a la tabla creada anteriormente en la base de datos, se insertan datos las tablas correspondientes se realizan subconsultas
+  ctes, funciones ventanas y vistas
+
+--------------------
+
 ## [1.2.2] - 2026-08-14
 
 ### Agregado
-- Se agregan nuevas tablas con relación a la tabla creada anteriormente en la base de datos, se insertan datos las tablas correspondientes
+- Se agregan nuevas tablas con relación a la tabla creada anteriormente en la base de datos, se insertan datos las tablas correspondientes, se realizan joins
 
 --------------------
 

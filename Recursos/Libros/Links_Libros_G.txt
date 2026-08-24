@@ -50,4 +50,18 @@ CROSS JOIN
 https://neon.com/postgresql/tutorial/joins
 https://www.postgresql.org/docs/current/queries-table-expressions.html?utm_source=chatgpt.com
 
+Semana6
+Esta semana consulta únicamente las secciones relacionadas con:
+
+WITH
+Queries / Subqueries
+Window Functions
+ROW_NUMBER
+RANK
+DENSE_RANK
+
+https://www.postgresql.org/docs/current/queries-with.html?utm_source=chatgpt.com
+https://www.postgresql.org/docs/current/functions-window.html?utm_source=chatgpt.com
+https://www.postgresql.org/docs/current/sql-createview.html?utm_source=chatgpt.com
+
 

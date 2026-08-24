@@ -20,7 +20,7 @@ El objetivo de esta semana es entender que es una relación entre tablas, identi
 
 ## Lo que aprendí
 
-- Aprendí para que se tienen que usar y para que sriven los joins
+- Aprendí para que se tienen que usar y para que sirven los joins
 - Aprendí las diferentes clausulas de join, left join, right join, full join, la operacion cross join asi como su sintaxis para usarlas.
 - Aprendi que es mejor renombrar las tablas de los joins que utilice para que sea mas facil de leer las consultas complejas.
 - Aprendi que debo especificar bien los joins para que no haya duplicidad de datos 
