@@ -1,0 +1,10 @@
+Día	Actividad	                Tiempo
+Día 1	Clase: fundamentos de Python	1.5 h
+Día 2	Videos				1–1.5 h
+Día 3	Documentación			1 h
+Día 4	Laboratorio			2 h
+Día 5	Tarea				2 h
+Día 6	GitHub				1 h
+Día 7	Quiz				30–45 min
+
+Total aproximado: 9–10 horas.

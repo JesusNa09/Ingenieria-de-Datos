@@ -1,0 +1,44 @@
+Esta semana quiero que empieces a acostumbrarte a leer documentación.
+
+No tienes que leer toda la documentación de Python.
+
+Revisa principalmente:
+
+Built-in Types
+
+Python — Built-in Types
+
+Enfócate en:
+
+str
+list
+dict
+tuple
+set
+Control Flow
+
+Python — More Control Flow Tools
+
+Enfócate en:
+
+if
+for
+range
+funciones
+Input and Output
+
+Python — Input and Output
+
+Enfócate en:
+
+archivos;
+open();
+with.
+CSV
+
+Python — csv module
+
+https://docs.python.org/3/library/stdtypes.html?utm_source=chatgpt.com#set-types-set-frozenset
+https://docs.python.org/3/tutorial/controlflow.html?utm_source=chatgpt.com#defining-functions
+https://docs.python.org/3/tutorial/inputoutput.html?utm_source=chatgpt.com
+https://docs.python.org/3/library/csv.html?utm_source=chatgpt.com

@@ -1,8 +1,7 @@
 # Semana 6 — SQL avanzado para Ingeniería de Datos 
 
 ## Objetivo
-El objetivo de esta semana es entender qué es una subconsulta y aprender a utilizarlas, tambien aprender a crear CTE mediante WITH asi como a encadenar varios CTE,se
-entendera la diferencia entre GROUP BY y Window Functions, se aprenderan a utilizar las funciones ventana  ROW_NUMBER(),RANK(), DENSE_RANK() y se aprendera a utilizar PARTITION BY, tambien se aprendera a crear una vista y poder combinar JOIN + CTE + GROUP BY + Window Functions.
+El objetivo de esta semana es entender qué es una subconsulta y aprender a utilizarlas, tambien aprender a crear CTE mediante WITH asi como a encadenar varios CTE,se entendera la diferencia entre GROUP BY y Window Functions, se aprenderan a utilizar las funciones ventana  ROW_NUMBER(),RANK(), DENSE_RANK() y se aprendera a utilizar PARTITION BY, tambien se aprendera a crear una vista y poder combinar JOIN + CTE + GROUP BY + Window Functions.
 
 
 ## Temas vistos

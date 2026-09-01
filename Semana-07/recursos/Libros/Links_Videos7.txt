@@ -1,0 +1,20 @@
+Busca contenido de Python que cubra específicamente:
+
+Variables y tipos de datos.
+Listas.
+Diccionarios.
+Condicionales.
+Ciclos for.
+Funciones.
+Lectura de archivos.
+CSV.
+try / except.
+
+https://www.youtube.com/watch?v=Rq5gJVxz55Q
+https://www.youtube.com/watch?v=rpsYzPv1HiQ&t=1066s
+https://www.youtube.com/watch?v=7s-zyoaaBOY&t=356s
+https://www.youtube.com/watch?v=iaRj5xGHCuE
+https://www.youtube.com/watch?v=kFJ8cIOTgSc
+https://www.youtube.com/watch?v=yPwbJ6zFfA0
+https://www.youtube.com/watch?v=jJyKET9ZVdE
+https://www.youtube.com/watch?v=wmNsecoZ_Go

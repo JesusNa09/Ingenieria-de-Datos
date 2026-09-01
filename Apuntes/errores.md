@@ -42,3 +42,49 @@ Extract te ayuda a extraer fechas dependiendo de que le pidas si dia mes o año 
 
 ## Correccion
 Solo recuerda que no está limitado a fechas; permite extraer campos de valores date, timestamp, etc.
+
+
+# Semana 6
+## Error1 
+
+## Correccion
+Solo la parte del desc en el order by
+El problema es:
+ORDER BY a.venta
+está ordenando ascendente.
+Por tanto:
+venta menor → ranking 1
+venta mayor → ranking 2, 3...
+Pero quieres el más vendido.
+Debe ser:
+ORDER BY a.venta DESC
+
+SELECT
+    r.producto,
+    r.categoria,
+    r.venta
+FROM (
+    SELECT
+        ROW_NUMBER() OVER (
+            PARTITION BY a.categoria
+            ORDER BY a.venta DESC
+        ) AS ranking,
+        a.producto,
+        a.categoria,
+        a.venta
+    FROM (
+        SELECT
+            p.nombre_producto AS producto,
+            c.nombre_categoria AS categoria,
+            SUM(v.venta) AS venta
+        FROM categorias c
+        JOIN productos p
+            ON c.id_categoria = p.id_categoria
+        JOIN ventas v
+            ON p.id_producto = v.id_producto
+        GROUP BY
+            c.nombre_categoria,
+            p.nombre_producto
+    ) a
+) r
+WHERE ranking = 1;

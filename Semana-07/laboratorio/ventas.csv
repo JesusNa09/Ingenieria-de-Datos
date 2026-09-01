@@ -1,0 +1,125 @@
+producto,categoria,cantidad,precio
+Laptop,Electronica,2,15000
+Mouse,Electronica,5,500
+Teclado,Electronica,3,800
+Monitor,Electronica,2,4000
+Silla,Muebles,4,2500
+Escritorio,Muebles,2,5000
+Audifonos,Electronica,6,1200
+Webcam,Electronica,3,1800
+Bocinas,Electronica,4,2200
+Tablet,Electronica,3,8500
+Impresora,Electronica,2,4500
+Disco Duro,Electronica,5,1600
+Memoria USB,Electronica,10,300
+Router,Electronica,4,1400
+Microfono,Electronica,3,2500
+Lampara,Muebles,6,900
+Librero,Muebles,3,3200
+Mesa,Muebles,4,2800
+Archivero,Muebles,2,3500
+Sillon,Muebles,3,4200
+Estante,Muebles,5,1800
+Cajonera,Muebles,4,2100
+Banco,Muebles,6,1200
+Pizarron,Muebles,2,2700
+Proyector,Electronica,2,7500
+Smartphone,Electronica,4,12000
+Cargador,Electronica,8,450
+Monitor Curvo,Electronica,2,6500
+Teclado Mecanico,Electronica,4,1800
+Mouse Inalambrico,Electronica,7,750
+Laptop Gamer,Electronica,3,28000
+Laptop Empresarial,Electronica,4,22000
+Monitor 24 Pulgadas,Electronica,6,3500
+Monitor 27 Pulgadas,Electronica,4,5200
+Teclado Inalambrico,Electronica,8,950
+Mouse Gamer,Electronica,6,1300
+Audifonos Bluetooth,Electronica,7,1800
+Camara Web HD,Electronica,5,1100
+Bocinas Bluetooth,Electronica,4,1600
+Disco SSD,Electronica,6,2100
+Disco Duro Externo,Electronica,5,1900
+Memoria RAM,Electronica,8,1400
+Tarjeta Grafica,Electronica,2,12500
+Fuente de Poder,Electronica,4,2200
+Regulador,Electronica,6,1300
+No Break,Electronica,3,3500
+Proyector HD,Electronica,2,6800
+Smart TV,Electronica,3,11500
+Tablet Grafica,Electronica,4,4200
+Celular,Electronica,5,9500
+Cargador Rapido,Electronica,10,650
+Silla Ejecutiva,Muebles,5,4800
+Silla Ergonomica,Muebles,6,6200
+Escritorio Ejecutivo,Muebles,3,7500
+Escritorio Esquinero,Muebles,4,5800
+Mesa de Juntas,Muebles,2,9500
+Librero Grande,Muebles,3,4500
+Archivero Metalico,Muebles,5,2800
+Gabinete,Muebles,4,3200
+Sillon Ejecutivo,Muebles,2,5600
+Computadora de Escritorio,Electronica,3,18500
+Mini PC,Electronica,4,9200
+Monitor Ultrawide,Electronica,2,7800
+Monitor 4K,Electronica,3,9500
+Teclado Gamer,Electronica,5,1450
+Mouse Optico,Electronica,10,350
+Mouse Pad,Electronica,12,280
+Audifonos Gamer,Electronica,6,2100
+Microfono USB,Electronica,4,1900
+Camara de Seguridad,Electronica,8,1250
+Smartwatch,Electronica,5,3800
+Consola de Videojuegos,Electronica,2,13500
+Control Inalambrico,Electronica,6,1600
+Adaptador USB,Electronica,10,450
+Hub USB,Electronica,7,850
+Cable HDMI,Electronica,15,300
+Cable Ethernet,Electronica,20,180
+Bateria Externa,Electronica,8,950
+Bocina Inteligente,Electronica,4,2400
+Reproductor Multimedia,Electronica,3,1800
+Escaner,Electronica,2,5600
+Impresora Multifuncional,Electronica,3,6200
+Calculadora,Electronica,8,450
+Telefono de Oficina,Electronica,5,1200
+Ventilador USB,Electronica,10,380
+Mesa de Trabajo,Muebles,5,3600
+Escritorio Compacto,Muebles,6,2900
+Escritorio de Oficina,Muebles,4,4700
+Silla de Oficina,Muebles,8,3100
+Silla Plegable,Muebles,10,850
+Silla de Visita,Muebles,12,1100
+Mesa Plegable,Muebles,6,1900
+Mesa de Conferencias,Muebles,2,8200
+Librero de Oficina,Muebles,5,3800
+Estante Metalico,Muebles,7,2400
+Archivero de Madera,Muebles,3,4100
+Cajonera de Oficina,Muebles,6,2300
+Gabinete de Oficina,Muebles,4,3500
+Pizarron Blanco,Muebles,5,1700
+Perchero,Muebles,8,750
+Monitor Portatil,Electronica,4,4200
+Teclado Numerico,Electronica,8,600
+Mouse Vertical,Electronica,5,1100
+Audifonos Inalambricos,Electronica,7,2300
+Microfono Profesional,Electronica,3,4800
+Camara Web 4K,Electronica,2,3900
+Disco SSD Externo,Electronica,6,2800
+Memoria MicroSD,Electronica,12,450
+Adaptador Bluetooth,Electronica,9,320
+Cargador Universal,Electronica,6,850
+Switch de Red,Electronica,4,1900
+Access Point,Electronica,3,2600
+Silla Ejecutiva Ergonomica,Muebles,5,7200
+Silla Gamer,Muebles,4,6800
+Escritorio Minimalista,Muebles,6,3900
+Escritorio Industrial,Muebles,3,6100
+Mesa Auxiliar,Muebles,8,1500
+Mesa Redonda,Muebles,4,3300
+Librero Modular,Muebles,5,2900
+Estante de Madera,Muebles,6,2700
+Archivero con Cajones,Muebles,4,3900
+Cajonera Movil,Muebles,7,1800
+Banco Alto,Muebles,6,1400
+Perchero de Oficina,Muebles,5,950
