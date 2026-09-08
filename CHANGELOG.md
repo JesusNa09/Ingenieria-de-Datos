@@ -1,9 +1,20 @@
 # Changelog
 
+## [1.3.2] - 2026-09-03
+### Agregado
+- Se trabaja convirtiendo tu archivo csv a un DataFrame para poder realziar analisis de la información asi como su manipulacion, transformacion y guardado con el mismo formato de apertura csv
+--------------------
+
+## [1.3.1] - 2026-08-28
+### Agregado
+- Se realizan funciones para poder abrir archivos, leer sus datos, realizar calculos validaciones con estos calculos , se gestionan su errores y se imprimen sus resultados
+
+--------------------
+
+
 ## [1.2.2] - 2026-08-21
 ### Agregado
-- Se agregan nuevas tablas con relación a la tabla creada anteriormente en la base de datos, se insertan datos las tablas correspondientes se realizan subconsultas
-  ctes, funciones ventanas y vistas
+- Se agregan nuevas tablas con relación a la tabla creada anteriormente en la base de datos, se insertan datos las tablas correspondientes se realizan subconsultas ctes, funciones ventanas y vistas
 
 --------------------
 

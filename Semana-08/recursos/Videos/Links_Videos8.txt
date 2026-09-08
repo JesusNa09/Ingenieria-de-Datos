@@ -1,0 +1,19 @@
+Enfócate en:
+
+Instalación.
+import pandas as pd.
+Series.
+DataFrame.
+read_csv().
+head().
+tail().
+shape.
+info().
+Selección de columnas.
+Filtrado.
+Crear columnas.
+to_csv().
+
+La documentación oficial será nuestra referencia:
+
+Pandas — Getting started

@@ -1,3 +1,4 @@
+
 # Curso de Ingenieria de datos
 
 Repositorio donde documento lo aprendido en el curso de Ingeniería de Datos.
@@ -72,6 +73,9 @@ APIs REST.
 - Realizar una serie de preguntas para responder algunas preguntas usando consultas que contengan las clausulas inner join,left join,right join,full join y el    operador cross join. 
 - Realizar una serie de preguntas para poder responder las preguntas usando subconsultas, ctes , funciones ventana row_number(),rank(),dense_rank(), diferencia entre
 la clausula group by y funciones ventana a la hora de visualizar los datos y las vistas.
+- Con base en una serie de pasos se realizo uan serie de ejercicios desde abrir y leer un archivo de excel en python su contenido, realizar ciertos calculos con algunas
+condiciones if,elif, else y recorrimiento con la instruccion for, ademas se usaron funciones para poder realizar esto con mas eficiencia y su gestion de errores
+- Se realiza una serie de ejercicios para resolver algunas preguntas usando pandas en python abriendo archivos csv, convirtiendolos a DataFrame, realizar ciertas operaciones con los metodos como shap, info, columns , pax, min , ademas de poder valdiar valores nullos y creando una nueva columnas con calculos de otras columnas, al final se guarda el DataFrame en un archivo de excel con un nuevo nombre
 
 ## Proyectos
 - Proyecto de Git (Subir carpeta con diagrama de diseño de datos de comose moverian los datos)
@@ -80,3 +84,6 @@ la clausula group by y funciones ventana a la hora de visualizar los datos y las
 - Crear un nuevo directorio con algunas funciones de agregación, uso de clausulas having y group by, funciones de texto y manipulacion de fechas
 - Crear nuevo directorio en Git agregando las clausulas de inner join,left join, right join , full join y cross join 
 - Crear nuevo directorio en Git adicionando las subconsultas, ctes, funciones ventanas y vistas
+- Crear nuevo directorio en Git creando funciones para poder abrir, leer todo el contenido del archivo y poder realizar calculos condiciones y gestion de errores en python
+- Crear un nuevo directorio en Git para poder leer archivos csv convertirlos en DataFrame, darle una tranformacion a los datos y manipular o darle cierto formato a la
+informacion
