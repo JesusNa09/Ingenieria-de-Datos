@@ -1,0 +1,23 @@
+Busca videos sobre estos temas:
+
+Pandas Data Cleaning Tutorial
+Pandas Missing Values
+Pandas Drop Duplicates
+Pandas String Methods
+Pandas Convert Data Types
+Pandas DateTime
+Qué debes aprender de los videos
+
+No necesitas memorizar todos los métodos. Concéntrate en entender:
+
+Cómo detectar problemas.
+Cómo decidir qué hacer con ellos.
+Cómo aplicar una transformación.
+Cómo comprobar que el resultado quedó correcto.
+
+https://www.youtube.com/watch?v=Ck0QgwiCEIs
+https://www.youtube.com/watch?v=AbBZYHNYFaY
+https://www.youtube.com/watch?v=JU1EhK89ThE
+https://www.youtube.com/watch?v=QTVTq8SPzxM
+https://www.youtube.com/watch?v=hY-LtLLGDos
+https://www.youtube.com/watch?v=0zduY5KwOZs

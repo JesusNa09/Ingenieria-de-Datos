@@ -1,0 +1,20 @@
+Día 3 — Documentación
+
+Lee principalmente estas secciones de la documentación oficial de Pandas:
+
+Missing data
+Duplicate Labels / Duplicate Data
+Text data
+Working with missing data
+Conversion de tipos
+Time series / DateTime
+
+Puedes utilizar:
+
+Documentación oficial de Pandas
+
+Y como referencia general:
+
+Pandas — 10 minutes to pandas
+
+https://pandas.pydata.org/docs/?utm_source=chatgpt.com
