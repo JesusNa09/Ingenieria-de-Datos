@@ -42,7 +42,7 @@ def calcular_total(contenido):
     precio = float(contenido[3])
 
     total = cantidad * precio
-    print("Total:",total)
+    print(f"Venta total: ${total:.2f}")
     return total
 
 
@@ -54,6 +54,7 @@ def generar_resumen(valores):
     venta_tot=0
     totales=[]
 
+    print("\n------ RESUMEN ------")
     for contenido in valores:
         numero_registros += 1
         print(contenido)
@@ -67,7 +68,7 @@ def generar_resumen(valores):
 
         totales.append(total)
         venta_tot+=total
-        print("\n------ RESUMEN ------")
+        
 
     if numeros_validos>0:
         promedio=venta_tot/numeros_validos

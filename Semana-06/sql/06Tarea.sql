@@ -67,9 +67,9 @@ subconsulta una consulta donde usamos una funcion de ventana dense rank para pod
 ordenando por la clausula order by a la ventas calculadas al final solo hacemos una consulta
 donde solo treaemos el producto cuando en la clausula where sea a uno para obttener el producto
 mas vendido por categoria*/
-SELECT r.producto
+/*SELECT r.producto
 FROM(
-SELECT DENSE_RANK() OVER (PARTITION BY a.producto ORDER BY a.mayor_venta DESC) as ranking,
+SELECT DENSE_RANK() OVER (PARTITION BY a.categoria ORDER BY a.mayor_venta DESC) as ranking,
 a.mayor_venta,a.producto
 FROM(
 SELECT SUM(v.venta) as mayor_venta,p.nombre_producto as producto
@@ -77,7 +77,7 @@ FROM ventas v
 JOIN productos p ON(v.id_producto=p.id_producto) 
 GROUP BY p.nombre_producto)a
 )r
-WHERE ranking=1;
+WHERE ranking=1;*/
 
 WITH ventas_producto AS (
     SELECT
@@ -154,14 +154,15 @@ WITH venta_categoria as(
 	GROUP BY c.nombre_categoria
 )
 , t_promedio as(
-	SELECT ROUND(AVG(v.venta),2) as promedio
-	FROM ventas v
+	SELECT ROUND(AVG(v.total_venta_categoria),2) as promedio
+	FROM venta_categoria v
 	)
 SELECT vc.total_venta_categoria
 FROM venta_categoria vc
 CROSS JOIN t_promedio p
 WHERE vc.total_venta_categoria>promedio;
 
+/*
 WITH venta_categoria AS (
     SELECT
         c.nombre_categoria AS categoria,
@@ -182,7 +183,7 @@ SELECT
     vc.total_venta_categoria
 FROM venta_categoria vc
 CROSS JOIN promedio_categoria p
-WHERE vc.total_venta_categoria > p.promedio;
+WHERE vc.total_venta_categoria > p.promedio;*/
 
 
 /*Problema 8*/
@@ -216,7 +217,7 @@ de cada categoria*/
 WITH ventas_por_producto_categoria as(
 	SELECT p.nombre_producto as producto, c.nombre_categoria as categoria,sum(venta) as total_venta
 	FROM ventas v
-	JOIN productos p on(v.id_producto=p.id_categoria)
+	JOIN productos p on(v.id_producto=p.id_producto)
 	JOIN categorias c on(p.id_categoria=c.id_categoria)
 	GROUP BY p.nombre_producto,c.nombre_categoria
 	)
@@ -225,34 +226,6 @@ SELECT DENSE_RANK() OVER(PARTITION BY categoria ORDER BY total_venta DESC) as ra
 ,total_venta ,categoria, total_venta
 FROM ventas_por_producto_categoria
 ) SELECT * FROM ranking_productos;
-
-WITH ventas_por_producto_categoria AS (
-    SELECT
-        p.nombre_producto AS producto,
-        c.nombre_categoria AS categoria,
-        SUM(v.venta) AS total_venta
-    FROM ventas v
-    JOIN productos p
-        ON v.id_producto = p.id_producto
-    JOIN categorias c
-        ON p.id_categoria = c.id_categoria
-    GROUP BY
-        p.nombre_producto,
-        c.nombre_categoria
-),
-ranking_productos AS (
-    SELECT
-        producto,
-        categoria,
-        total_venta,
-        DENSE_RANK() OVER (
-            PARTITION BY categoria
-            ORDER BY total_venta DESC
-        ) AS ranking_productos
-    FROM ventas_por_producto_categoria
-)
-SELECT *
-FROM ranking_productos;
 
 
 /*Problema 10 — Integrador*/
@@ -287,13 +260,13 @@ WITH consulta1 as(
 ,consulta3  as(
 	SELECT p.nombre_producto as producto, c.nombre_categoria as categoria,sum(venta) as total_venta
 	FROM ventas v
-	JOIN productos p on(v.id_producto=p.id_categoria)
+	JOIN productos p on(v.id_producto=p.id_producto)
 	JOIN categorias c on(p.id_categoria=c.id_categoria)
 	GROUP BY p.nombre_producto,c.nombre_categoria
 	)
 ,consulta4 as(
 SELECT DENSE_RANK() OVER(PARTITION BY categoria ORDER BY total_venta DESC) as rankin_productos
-,total_venta ,categoria, total_venta
+,producto,total_venta ,categoria, total_venta
 FROM consulta3
 )
 , consulta5 as(
@@ -310,10 +283,10 @@ SELECT c3.cliente,
 	   c4.rankin_productos as ranking_producto,
 	   c3.total_cliente
 	FROM consulta5 c3
-	JOIN consulta4 c4 on(c3.categoria=c4.categoria)
+	JOIN consulta4 c4 on(c3.categoria=c4.categoria and c3.producto = c4.producto)
 	)SELECT * FROM consulta_final;
 
-
+/*
 WITH ventas_detalle AS (
     SELECT
         c.nombre AS cliente,
@@ -369,7 +342,7 @@ JOIN ventas_cliente vc
     ON vd.cliente = vc.cliente
 JOIN ranking_productos rp
     ON vd.producto = rp.producto
-   AND vd.categoria = rp.categoria;
+   AND vd.categoria = rp.categoria;*/
 	
 
 

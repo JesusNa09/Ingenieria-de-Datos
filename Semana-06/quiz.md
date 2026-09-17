@@ -26,14 +26,14 @@ La diferencia es que en la clausula group by reduce filas agrupando por alguna c
 en el que se le aplico la funcion a su columna 
 
 Diferencia entre ROW_NUMBER() y RANK().
-La diferencia entre estas dos funciones ventana es que rw_number va a asignar solo un numero consecutivo dependiendo de la columna a la que se le aplique sin importar si hay 
-numeros reptidos y la funcion rank te muestra un numero consecutivo pero si hay empates les asigna el mismo numero pero se salta con el siguiete registro al numero que siguiete
+La diferencia entre estas dos funciones ventana es que row_number va a asignar solo un numero consecutivo dependiendo de la columna a la que se le aplique sin importar si hay 
+numeros reptidos y la funcion rank te muestra un numero consecutivo pero si hay empates les asigna el mismo numero pero se salta con el siguiente registro al numero que sigue
 dejando un espacio  
 
 Diferencia entre RANK() y DENSE_RANK().
 La diferencia entre estas dos funciones ventana es que en rank realiza un conteo de numeros consecutivos pero si hay valores repetidos, les asigna el mismo numero pero al siguiente
 registro se salta el numero que sigue y le da el mumero que sigue saltandose uno a diferencia de la funcion de agregacion dense rank hace el mismo conteo pero
-si encuntre numeros repetidos les asigna el mismo numero y este no se salta al siguiente numero con el registro que sigue sino que le asigna el numero consecutivo
+si encuntra numeros repetidos les asigna el mismo numero y este no se salta al siguiente numero con el registro que sigue sino que le asigna el numero consecutivo
 
 ¿Para qué sirve una VIEW?
 Para crear tablas virtuales basados en los resultados de consultas select

@@ -174,20 +174,20 @@ funcion de agregacion sum para poder obtener las ventas por clientes agupando co
 group by para obtner ese total por cada cliente , al final solo se realiza otro bloque de codigo
 con el with para obtener la ciudad del cliente y total de sus ventas de clientes con con join 
 entre la tabla creada y la de clientes*/
-/*WITH ventas_por_cliente as(
-	SELECT c.nombre, SUM(v.venta) as total_ventas
+WITH ventas_por_cliente as(
+	SELECT c.id_cliente,c.nombre, SUM(v.venta) as total_ventas
 	FROM ventas v
 	INNER JOIN clientes c on(v.id_cliente=c.id_cliente)
-	GROUP BY c.nombre
+	GROUP BY c.nombre,c.id_cliente
 	)
 , ciudad_clientes as(
 	SELECT vc.nombre, c.ciudad,vc.total_ventas
 	FROM ventas_por_cliente vc
-	INNER JOIN clientes c on(vc.nombre = c.nombre)
+	INNER JOIN clientes c on(vc.id_cliente = c.id_cliente)
 	)
-	SELECT * FROM ciudad_clientes;*/	
+	SELECT * FROM ciudad_clientes;
 	
-WITH ventas_por_cliente AS (
+/*WITH ventas_por_cliente AS (
     SELECT
         c.id_cliente,
         c.nombre,
@@ -205,13 +205,13 @@ SELECT
     vc.total_ventas
 FROM ventas_por_cliente vc
 JOIN clientes c
-    ON vc.id_cliente = c.id_cliente;
-
+    ON vc.id_cliente = c.id_cliente;*/
 /*Ejercicio 5 — ROW_NUMBER*/
 /*Numerar las ventas de mayor a menor:*/
 /*En este ejercicio se usa una funcion ventana row number aplicado a la columna de venta en la
 tabla ventas usando la clausula order by para poder obtener un numero un conteo de las ventas
 de mayor a menor con el desc*/
+
 SELECT ROW_NUMBER() OVER (order by venta desc) as numero_venta,venta
 FROM ventas;
 

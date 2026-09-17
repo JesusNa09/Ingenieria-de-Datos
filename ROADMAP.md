@@ -8,5 +8,6 @@
 - [X] Semana 6 - SQL avanzado para Ingeniería de Datos
 - [X] Semana 7 - Python básico para Data Engineering
 - [X] Semana 8 - Python aplicado a datos con Pandas
+- [X] Semana 9 - Python aplicado a datos con Pandas
 ...
 - [ ] Semana 24 - Proyecto Final

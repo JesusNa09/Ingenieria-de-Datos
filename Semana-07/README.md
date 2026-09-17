@@ -7,7 +7,6 @@ y aprender a manipular los datos de los archivos
 
 
 ## Temas vistos
-- ¿Qué es una subconsulta?
 - ¿Por qué Python en Data Engineering?
 - ¿Qué es Python?
 - Variables

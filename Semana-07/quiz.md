@@ -2,7 +2,7 @@
 
 ¿Qué es Python y por qué es utilizado en Data Engineering?
 Es un lenguaje de programacion de alto nivel de facil sintaxis, es utilizado por los Data Engineer para poder manipular datos de diferentes fuentes como json, archivos txt, csv y
-permite automatizar procesos y cobtruir pipelines ETL.
+permite automatizar procesos y construir pipelines ETL.
 
 ¿Qué es una variable?
 Es un contenedor que guarda un valor en memoria y su valor puede cambiar
@@ -12,7 +12,7 @@ Menciona cuatro tipos de datos básicos de Python.
 Unos de los cuatro tipos de datos basicos son str, int, bool, float
 
 ¿Cuál es la diferencia entre una lista y un diccionario?
-Los estructuras de datos , almacenan datos , la principal diferencia es en como lo guardan , en las listas gurdan los datos de cualquier tipo, pueden ser modificables y en los diccionarios guardan los datos por clave valor
+Las estructuras de datos , almacenan datos , la principal diferencia es en como lo guardan , en las listas gurdan los datos de cualquier tipo, pueden ser modificables y en los diccionarios guardan los datos por clave valor
 
 ¿Qué es un diccionario?
 Es una estructura de datos que almacena datos de modo clave valor, donde la clave es una descripcion de los datos y el valor es cualquier objeto en python por ejemplo un numero o caracter
@@ -42,7 +42,7 @@ total = 0
 for venta in ventas:
     total += venta
 print(total)
-Este codigo primero declara una lista con valores de tipo numerico , despues hace una instruccion for donde recorre todos los numeros de la lista con una variable que inica en cero y cada vez que va recorriendo va sumando los valores
+Este codigo primero declara una lista con valores de tipo numerico , despues hace una instruccion for donde recorre todos los numeros de la lista con una variable que inicia en cero y cada vez que va recorriendo va sumando los valores
 de la lista al final solo muestra en pantalla el resultado
 
 ¿Qué hace esta función?
@@ -58,4 +58,4 @@ positivo por lo que si te dan un valor negativo te dara un valor equivocado
 
 Pregunta de Data Engineering
 Explica con tus propias palabras por qué Python complementa a SQL en un proceso ETL.
-El lenguaje Python complementa a sql porque con python se puede trabajar con distintas fuentes como archivos de textos, csv json por lo ahi se pueden usar ya consultas en sql dentro de Python para su manipulacion de datos y para poder guardar estos nuevos datos con un nuevo formato y direccion, practicamente Python puede conectarse a bases de datos y ejecutar consultas SQL, mientras que Python también permite trabajar con archivos, APIs y realizar transformaciones y automatización.
+El lenguaje Python complementa a sql porque con python se puede trabajar con distintas fuentes como archivos de textos, csv json por lo ahi se pueden usar ya consultas en sql que se pueden ejecutar en  Python para su manipulacion de datos y para poder guardar estos nuevos datos con un nuevo formato y direccion, practicamente Python puede conectarse a bases de datos y ejecutar consultas SQL, mientras que Python también permite trabajar con archivos, APIs y realizar transformaciones y automatización.
